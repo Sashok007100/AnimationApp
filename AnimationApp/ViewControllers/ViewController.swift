@@ -10,9 +10,16 @@ import SpringAnimation
 
 final class ViewController: UIViewController {
 
+    @IBOutlet var animationView: SpringView!
+    @IBOutlet var startAnimationButton: UIButton!
+    @IBOutlet var animationDescriptionLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        animationView.layer.cornerRadius = 10
+        startAnimationButton.layer.cornerRadius = 10
+        animationDescriptionLabel.text = animation.description
     }
 
 
