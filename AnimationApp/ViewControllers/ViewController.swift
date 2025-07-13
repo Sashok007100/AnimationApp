@@ -18,7 +18,6 @@ final class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         animationView.layer.cornerRadius = 10
         startAnimationButton.layer.cornerRadius = 10
@@ -26,4 +25,3 @@ final class ViewController: UIViewController {
     }
 
 }
-
