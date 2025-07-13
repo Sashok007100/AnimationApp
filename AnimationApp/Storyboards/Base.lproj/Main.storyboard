@@ -18,22 +18,10 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8wL-GG-yle" customClass="SpringView" customModule="SpringAnimation">
                                 <rect key="frame" x="39" y="158" width="315" height="175"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYY-WR-iQ2">
-                                        <rect key="frame" x="8" y="8" width="299" height="159"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="315" id="1ZQ-A5-1YF"/>
-                                    <constraint firstAttribute="trailing" secondItem="yYY-WR-iQ2" secondAttribute="trailing" constant="8" id="BY1-ME-rjV"/>
                                     <constraint firstAttribute="height" constant="175" id="Zzb-GY-iIJ"/>
-                                    <constraint firstItem="yYY-WR-iQ2" firstAttribute="leading" secondItem="8wL-GG-yle" secondAttribute="leading" constant="8" id="cTc-EL-8kp"/>
-                                    <constraint firstAttribute="bottom" secondItem="yYY-WR-iQ2" secondAttribute="bottom" constant="8" id="vgA-dm-WAO"/>
-                                    <constraint firstItem="yYY-WR-iQ2" firstAttribute="top" secondItem="8wL-GG-yle" secondAttribute="top" constant="8" id="xSI-Qt-zf7"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBN-SK-kjZ">
@@ -51,6 +39,12 @@
                                     <action selector="startAnimationTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="oo3-ni-Vlo"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYY-WR-iQ2">
+                                <rect key="frame" x="20" y="413" width="353" height="26.333333333333314"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -59,7 +53,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bBN-SK-kjZ" secondAttribute="trailing" constant="20" id="F15-0c-9uD"/>
                             <constraint firstItem="8wL-GG-yle" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F26-I5-vqi"/>
                             <constraint firstAttribute="bottomMargin" secondItem="bBN-SK-kjZ" secondAttribute="bottom" constant="20" id="Fpu-Gj-UMy"/>
+                            <constraint firstItem="yYY-WR-iQ2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IdT-Mk-HqH"/>
                             <constraint firstItem="8wL-GG-yle" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="Koc-1c-22T"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yYY-WR-iQ2" secondAttribute="trailing" constant="20" id="RVG-Gz-MBn"/>
+                            <constraint firstItem="yYY-WR-iQ2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TIR-dD-baA"/>
                         </constraints>
                     </view>
                     <connections>
