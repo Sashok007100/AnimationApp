@@ -25,6 +25,5 @@ final class ViewController: UIViewController {
         animationDescriptionLabel.text = animation.description
     }
 
-
 }
 
