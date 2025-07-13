@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		897F56842E231CA200F2429B /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = 897F56832E231CA200F2429B /* SpringAnimation */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		89FCC53E2E231AF500C0664F /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				897F56842E231CA200F2429B /* SpringAnimation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = AnimationApp;
 			packageProductDependencies = (
+				897F56832E231CA200F2429B /* SpringAnimation */,
 			);
 			productName = AnimationApp;
 			productReference = 89FCC53E2E231AF500C0664F /* AnimationApp.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 89FCC5352E231AF500C0664F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				897F56822E231CA200F2429B /* XCRemoteSwiftPackageReference "SpringAnimation" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 89FCC53F2E231AF500C0664F /* Products */;
 			projectDirPath = "";
@@ -345,6 +354,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		897F56822E231CA200F2429B /* XCRemoteSwiftPackageReference "SpringAnimation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LexDeBash/SpringAnimation";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		897F56832E231CA200F2429B /* SpringAnimation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 897F56822E231CA200F2429B /* XCRemoteSwiftPackageReference "SpringAnimation" */;
+			productName = SpringAnimation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 89FCC5362E231AF500C0664F /* Project object */;
 }
